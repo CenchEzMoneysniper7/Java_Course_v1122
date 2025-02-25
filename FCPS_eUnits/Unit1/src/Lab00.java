@@ -13,7 +13,7 @@ public class Lab00 {
 		Display.openWorld("maps/first.map");
 		Display.setSize(10,10);
 		Display.setSpeed(5);
-
+		
 		Robot karel = new Robot();
 		karel.move();
 		karel.pickBeeper();
