@@ -29,6 +29,7 @@ public class Lab02 {
         lisa.turnRight();
         lisa.putAndMove();
         lisa.putAndMove();
+        
 
     }
 }
