@@ -11,7 +11,6 @@ public class Lab00 {
 		Display.setSpeed(5);
 		
 		Robot karel = new Robot();
-<<<<<<< HEAD
 		karel.move();
 		karel.pickBeeper();
 		karel.move();
@@ -21,10 +20,8 @@ public class Lab00 {
 		karel.move();
 		karel.turnLeft();
 		karel.turnLeft();
-=======
       
       //test
->>>>>>> 6106135820d248bf9bae3b5bc625c9e2d3ca14b4
 	}
 
 }
