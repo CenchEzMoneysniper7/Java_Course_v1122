@@ -18,7 +18,7 @@
          Display.openWorld("maps/"+filename+".map");
          Display.setSize(8, 8);
          Display.setSpeed(10);
-         //escape_the_maze( new Democrat() );
+         escape_the_maze( new Democrat() );
          escape_the_maze( new Republican() );
       	//escape_the_maze( new Independent() );
       }
