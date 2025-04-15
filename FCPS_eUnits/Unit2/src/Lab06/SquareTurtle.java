@@ -33,12 +33,10 @@
       }
        public void drawShape()
       {
-      
-         /************************/
-      	/*                      */
-      	/* Your code goes here. */
-      	/*                      */
-      	/************************/
+          for (int i = 0; i < 4; i++) {
+          forward(mySize);  // 向前畫邊
+          turnRight(90);    // 轉 90 度
+          }
       
       }
    }

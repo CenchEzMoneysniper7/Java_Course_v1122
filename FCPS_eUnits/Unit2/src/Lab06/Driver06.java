@@ -19,12 +19,19 @@
          smidge.setColor(Color.BLUE);
          smidge.setThickness(6);
          smidge.drawShape();
+         
+         smidge = new SquareTurtle(100,250,45,20);
+         smidge.setColor(Color.RED);
+         smidge.setThickness(4);
+         smidge.drawShape();
       
-         /************************/
-      	/*                      */
-      	/* Your code goes here. */
-      	/*                      */
-      	/************************/
-      
+         for(int i=30;i<=150;i+=30)
+         {
+            smidge = new SquareTurtle(500,250,45,i);
+            smidge.setColor(Color.YELLOW);
+            smidge.setThickness(2);
+            smidge.drawShape();
+         }
+               
       }
    }
